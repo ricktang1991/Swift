@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		044AD3DF240873830066E61F /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044AD3DE240873830066E61F /* main.swift */; };
 		044AD3E7240873C70066E61F /* floodFill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044AD3E6240873C70066E61F /* floodFill.swift */; };
+		044AD3E924087D1F0066E61F /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044AD3E824087D1F0066E61F /* Queue.swift */; };
+		044AD3EC24088C190066E61F /* GraphAssignment2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044AD3EB24088C190066E61F /* GraphAssignment2.swift */; };
+		044AD3EE240941C10066E61F /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044AD3ED240941C10066E61F /* Stack.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +30,9 @@
 		044AD3DB240873830066E61F /* SwiftXcode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SwiftXcode; sourceTree = BUILT_PRODUCTS_DIR; };
 		044AD3DE240873830066E61F /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		044AD3E6240873C70066E61F /* floodFill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = floodFill.swift; sourceTree = "<group>"; };
+		044AD3E824087D1F0066E61F /* Queue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
+		044AD3EB24088C190066E61F /* GraphAssignment2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphAssignment2.swift; sourceTree = "<group>"; };
+		044AD3ED240941C10066E61F /* Stack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +65,9 @@
 		044AD3DD240873830066E61F /* SwiftXcode */ = {
 			isa = PBXGroup;
 			children = (
+				044AD3ED240941C10066E61F /* Stack.swift */,
+				044AD3EA24088AFC0066E61F /* Assignments */,
+				044AD3E824087D1F0066E61F /* Queue.swift */,
 				044AD3E5240873920066E61F /* FloodFill */,
 				044AD3DE240873830066E61F /* main.swift */,
 			);
@@ -71,6 +80,14 @@
 				044AD3E6240873C70066E61F /* floodFill.swift */,
 			);
 			path = FloodFill;
+			sourceTree = "<group>";
+		};
+		044AD3EA24088AFC0066E61F /* Assignments */ = {
+			isa = PBXGroup;
+			children = (
+				044AD3EB24088C190066E61F /* GraphAssignment2.swift */,
+			);
+			path = Assignments;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,6 +149,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				044AD3DF240873830066E61F /* main.swift in Sources */,
+				044AD3EE240941C10066E61F /* Stack.swift in Sources */,
+				044AD3E924087D1F0066E61F /* Queue.swift in Sources */,
+				044AD3EC24088C190066E61F /* GraphAssignment2.swift in Sources */,
 				044AD3E7240873C70066E61F /* floodFill.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
