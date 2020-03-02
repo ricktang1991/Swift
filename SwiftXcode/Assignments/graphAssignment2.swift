@@ -42,6 +42,9 @@ func leastRoads() {
     var visited2 = [Bool](repeating: false, count: restaurtantsNum + 1)
     var distance2 = [Int](repeating: 0, count: restaurtantsNum)
     bfsDiameter(start: start, visited: &visited2, distance: &distance2, adjList: &adjList)
+    
+    let diameter = distance2.max()!
+    print(diameter)
 }
 
 func bfsDiameter(start: Int, visited: inout [Bool], distance: inout [Int], adjList: inout [[Int]]) {
