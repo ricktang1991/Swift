@@ -8,4 +8,5 @@
 
 import Foundation
 
-shortestBridge()
+
+findOrder(2, [[1,0]])
