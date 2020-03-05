@@ -125,13 +125,10 @@ func shortestBridge() {
             let square = q.dequeue()!
             let x = square.x
             let y = square.y
-            // check 4 directions
             for i in 0..<4 {
                 let nx = x + dx[i]
                 let ny = y + dy[i]
-                // check the bounds
                 if nx >= 0 && nx < n && ny >= 0 && ny < n {
-                    // check if there's a house and not yet marked in group
                     if map[nx][ny] == 1 && group[nx][ny] == 0 {
                         q.enqueue(item: Square(x: nx, y: ny))
                         group[nx][ny] = id
@@ -171,23 +168,16 @@ func shortestBridge() {
                     group[ny][nx] = group[y][x]
                     parent[ny][nx] = parent[y][x] + 1
                     q.enqueue(item: Square(x: nx, y: ny))
-                    for i in 0..<n {
-                        print(group[i])
-                    }
-                    print()
                 } else if map[ny][nx] == 0 && visited[ny][nx] == true && group[ny][nx] != group[y][x] {
-                    if group[ny][nx] != 0 {
-                        if parent[y][x] != parent[ny][nx] {
-                            shortestLength = parent[y][x] + parent[ny][nx]
-                            days.append(shortestLength)
-                        } else {
-                            shortestLength = parent[ny][nx] * 2
-                            days.append(shortestLength)
-                        }
+                    if parent[y][x] != parent[ny][nx] {
+                        shortestLength = parent[y][x] + parent[ny][nx]
+                        days.append(shortestLength)
+                    } else {
+                        shortestLength = parent[ny][nx] * 2
+                        days.append(shortestLength)
                     }
                 }
             }
-            
         }
     }
     shortestLength = days.min()!
