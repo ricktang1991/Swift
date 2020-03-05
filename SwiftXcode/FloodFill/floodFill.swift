@@ -16,13 +16,13 @@ func Town() {
     }
     let dx = [0, 0, 1, -1]
     let dy = [1, -1, 0, 0]
-    // town map (input)
+    // townMap (input)
     var townMap = [[Int]]()
-    // group(colored)
-    // (In Java, int[][] group = new int[25][25]
+    // group (colored)
+    // (In Java, int[][] group = new int[25][25]; )
     var group = [[Int]](repeating: [Int](repeating: 0, count: 25), count: 25)
     
-    func bfs(x: Int, y:Int, id: Int, n:Int) {
+    func bfs(x: Int, y: Int, id: Int, n: Int) {
         let q = Queue<Square>()
         q.enqueue(item: Square(x: x, y: y))
         group[x][y] = id
@@ -46,6 +46,7 @@ func Town() {
             }
         }
     }
+    
     // process the input
     let n = Int(readLine()!)! // n: town map size
     for _ in 0..<n {
