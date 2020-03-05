@@ -90,6 +90,7 @@ func shortestBridge() {
     var parent = [[Int]](repeating: [Int](repeating: 0, count: n), count: n)
     var group = [[Int]](repeating: [Int](repeating: 0, count: n), count: n)
     var shortestLength = 0
+    var days = [Int]()
     
     var starts = [Square]()
     
@@ -169,24 +170,19 @@ func shortestBridge() {
                     visited[ny][nx] = true
                     group[ny][nx] = group[y][x]
                     parent[ny][nx] = parent[y][x] + 1
-                    for j in 0..<4 {
-                        let nnx = nx + dx[j]
-                        let nny = ny + dy[j]
-                        if nnx >= 0 && nnx < n && nny >= 0 && nny < n {
-                            if parent[nny][nnx] == parent[ny][nx] && group[nny][nnx] != group[ny][nx] {
-                                shortestLength = parent[nny][nnx] * 2
-                                break outer
-                            }
-                        }
-                    }
                     q.enqueue(item: Square(x: nx, y: ny))
+                    for i in 0..<n {
+                        print(group[i])
+                    }
+                    print()
                 } else if map[ny][nx] == 0 && visited[ny][nx] == true && group[ny][nx] != group[y][x] {
                     if group[ny][nx] != 0 {
                         if parent[y][x] != parent[ny][nx] {
                             shortestLength = parent[y][x] + parent[ny][nx]
-                            break outer
+                            days.append(shortestLength)
                         } else {
-                            shortestLength = parent[ny][nx]
+                            shortestLength = parent[ny][nx] * 2
+                            days.append(shortestLength)
                         }
                     }
                 }
@@ -194,19 +190,8 @@ func shortestBridge() {
             
         }
     }
-//    for i in 0..<n {
-//        print(group[i])
-//    }
-//    print()
-//    for i in 0..<n {
-//        print(parent[i])
-//    }
-//    print()
-//    for i in 0..<n {
-//        print(map[i])
-//    }
+    shortestLength = days.min()!
     print(shortestLength)
-
 }
 
 
