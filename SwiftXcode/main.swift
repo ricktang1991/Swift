@@ -9,4 +9,4 @@
 import Foundation
 
 
-findOrder(2, [[1,0]])
+partitionLabels("ababcbacadefegdehijhklij")

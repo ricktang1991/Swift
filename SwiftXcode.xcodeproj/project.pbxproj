@@ -23,6 +23,10 @@
 		04F41E442411121F002F4550 /* BreadthFirstSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F41E432411121F002F4550 /* BreadthFirstSearch.swift */; };
 		04F41E4624111250002F4550 /* DepthFirstSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F41E4524111250002F4550 /* DepthFirstSearch.swift */; };
 		04F41E482411B036002F4550 /* TopologicalSortAssignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F41E472411B036002F4550 /* TopologicalSortAssignment.swift */; };
+		04F41E4A2411C0C3002F4550 /* greedyAssignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F41E492411C0C3002F4550 /* greedyAssignment.swift */; };
+		04F41E4C24178C62002F4550 /* DijkstraArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F41E4B24178C62002F4550 /* DijkstraArray.swift */; };
+		04F41E4E24178D6B002F4550 /* MCFAssignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F41E4D24178D6B002F4550 /* MCFAssignment.swift */; };
+		04F41E5024184389002F4550 /* String+DPStringTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F41E4F24184389002F4550 /* String+DPStringTool.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -55,6 +59,10 @@
 		04F41E432411121F002F4550 /* BreadthFirstSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreadthFirstSearch.swift; sourceTree = "<group>"; };
 		04F41E4524111250002F4550 /* DepthFirstSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepthFirstSearch.swift; sourceTree = "<group>"; };
 		04F41E472411B036002F4550 /* TopologicalSortAssignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopologicalSortAssignment.swift; sourceTree = "<group>"; };
+		04F41E492411C0C3002F4550 /* greedyAssignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = greedyAssignment.swift; sourceTree = "<group>"; };
+		04F41E4B24178C62002F4550 /* DijkstraArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DijkstraArray.swift; sourceTree = "<group>"; };
+		04F41E4D24178D6B002F4550 /* MCFAssignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MCFAssignment.swift; sourceTree = "<group>"; };
+		04F41E4F24184389002F4550 /* String+DPStringTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+DPStringTool.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +120,8 @@
 				044AD3EF240BC1FC0066E61F /* graphAssignment.swift */,
 				04F41E35240DDA6C002F4550 /* floodFillAssignment.swift */,
 				04F41E472411B036002F4550 /* TopologicalSortAssignment.swift */,
+				04F41E492411C0C3002F4550 /* greedyAssignment.swift */,
+				04F41E4D24178D6B002F4550 /* MCFAssignment.swift */,
 			);
 			path = Assignments;
 			sourceTree = "<group>";
@@ -119,6 +129,7 @@
 		04F41E3D24111018002F4550 /* Structure */ = {
 			isa = PBXGroup;
 			children = (
+				04F41E4F24184389002F4550 /* String+DPStringTool.swift */,
 				04F41E3924110F48002F4550 /* BFS.swift */,
 				044AD3E824087D1F0066E61F /* Queue.swift */,
 				04F41E3B24110FCA002F4550 /* DFS.swift */,
@@ -135,6 +146,7 @@
 			children = (
 				04F41E432411121F002F4550 /* BreadthFirstSearch.swift */,
 				04F41E4524111250002F4550 /* DepthFirstSearch.swift */,
+				04F41E4B24178C62002F4550 /* DijkstraArray.swift */,
 			);
 			path = Graph;
 			sourceTree = "<group>";
@@ -202,15 +214,19 @@
 				04F41E3A24110F48002F4550 /* BFS.swift in Sources */,
 				044AD3DF240873830066E61F /* main.swift in Sources */,
 				044AD3F0240BC1FC0066E61F /* graphAssignment.swift in Sources */,
+				04F41E4E24178D6B002F4550 /* MCFAssignment.swift in Sources */,
 				04F41E482411B036002F4550 /* TopologicalSortAssignment.swift in Sources */,
 				04F41E442411121F002F4550 /* BreadthFirstSearch.swift in Sources */,
+				04F41E4C24178C62002F4550 /* DijkstraArray.swift in Sources */,
 				04F41E3C24110FCA002F4550 /* DFS.swift in Sources */,
 				044AD3F2240BC9030066E61F /* UF.swift in Sources */,
+				04F41E5024184389002F4550 /* String+DPStringTool.swift in Sources */,
 				044AD3EE240941C10066E61F /* Stack.swift in Sources */,
 				04F41E38240F06BD002F4550 /* TopologicalSort.swift in Sources */,
 				044AD3E924087D1F0066E61F /* Queue.swift in Sources */,
 				044AD3EC24088C190066E61F /* graphAssignment2.swift in Sources */,
 				04F41E4624111250002F4550 /* DepthFirstSearch.swift in Sources */,
+				04F41E4A2411C0C3002F4550 /* greedyAssignment.swift in Sources */,
 				04F41E3F24111054002F4550 /* Bag.swift in Sources */,
 				044AD3E7240873C70066E61F /* floodFill.swift in Sources */,
 			);
