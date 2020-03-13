@@ -27,6 +27,9 @@
 		04F41E4C24178C62002F4550 /* DijkstraArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F41E4B24178C62002F4550 /* DijkstraArray.swift */; };
 		04F41E4E24178D6B002F4550 /* MCFAssignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F41E4D24178D6B002F4550 /* MCFAssignment.swift */; };
 		04F41E5024184389002F4550 /* String+DPStringTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F41E4F24184389002F4550 /* String+DPStringTool.swift */; };
+		04F41E522418538A002F4550 /* BellmanFord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F41E512418538A002F4550 /* BellmanFord.swift */; };
+		04F41EB7241A006C002F4550 /* shortestPathAssignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F41EB6241A006C002F4550 /* shortestPathAssignment.swift */; };
+		04F41EB9241ADCA2002F4550 /* DPAssignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F41EB8241ADCA2002F4550 /* DPAssignment.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -63,6 +66,104 @@
 		04F41E4B24178C62002F4550 /* DijkstraArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DijkstraArray.swift; sourceTree = "<group>"; };
 		04F41E4D24178D6B002F4550 /* MCFAssignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MCFAssignment.swift; sourceTree = "<group>"; };
 		04F41E4F24184389002F4550 /* String+DPStringTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+DPStringTool.swift"; sourceTree = "<group>"; };
+		04F41E512418538A002F4550 /* BellmanFord.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BellmanFord.swift; sourceTree = "<group>"; };
+		04F41E552418D8A2002F4550 /* mcf.46.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mcf.46.in; sourceTree = "<group>"; };
+		04F41E562418D8A2002F4550 /* mcf.15.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mcf.15.in; sourceTree = "<group>"; };
+		04F41E572418D8A2002F4550 /* mcf.12.out */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mcf.12.out; sourceTree = "<group>"; };
+		04F41E582418D8A3002F4550 /* mcf.43.out */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mcf.43.out; sourceTree = "<group>"; };
+		04F41E592418D8A3002F4550 /* mcf.07.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mcf.07.in; sourceTree = "<group>"; };
+		04F41E5A2418D8A3002F4550 /* mcf.23.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mcf.23.in; sourceTree = "<group>"; };
+		04F41E5B2418D8A3002F4550 /* mcf.12.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mcf.12.in; sourceTree = "<group>"; };
+		04F41E5C2418D8A3002F4550 /* mcf.30.out */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mcf.30.out; sourceTree = "<group>"; };
+		04F41E5D2418D8A3002F4550 /* mcf.13.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mcf.13.in; sourceTree = "<group>"; };
+		04F41E5E2418D8A3002F4550 /* mcf.47.out */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mcf.47.out; sourceTree = "<group>"; };
+		04F41E5F2418D8A3002F4550 /* mcf.27.out */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mcf.27.out; sourceTree = "<group>"; };
+		04F41E602418D8A4002F4550 /* mcf.35.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mcf.35.in; sourceTree = "<group>"; };
+		04F41E612418D8A4002F4550 /* mcf.14.out */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mcf.14.out; sourceTree = "<group>"; };
+		04F41E622418D8A4002F4550 /* mcf.01.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mcf.01.in; sourceTree = "<group>"; };
+		04F41E632418D8A4002F4550 /* mcf.37.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mcf.37.in; sourceTree = "<group>"; };
+		04F41E642418D8A4002F4550 /* mcf.43.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mcf.43.in; sourceTree = "<group>"; };
+		04F41E652418D8A4002F4550 /* mcf.47.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mcf.47.in; sourceTree = "<group>"; };
+		04F41E662418D8A5002F4550 /* mcf.16.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mcf.16.in; sourceTree = "<group>"; };
+		04F41E672418D8A5002F4550 /* mcf.04.out */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mcf.04.out; sourceTree = "<group>"; };
+		04F41E682418D8A5002F4550 /* mcf.21.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mcf.21.in; sourceTree = "<group>"; };
+		04F41E692418D8A5002F4550 /* mcf.46.out */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mcf.46.out; sourceTree = "<group>"; };
+		04F41E6A2418D8A5002F4550 /* mcf.07.out */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mcf.07.out; sourceTree = "<group>"; };
+		04F41E6B2418D8A6002F4550 /* mcf.31.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mcf.31.in; sourceTree = "<group>"; };
+		04F41E6C2418D8A6002F4550 /* mcf.34.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mcf.34.in; sourceTree = "<group>"; };
+		04F41E6D2418D8A6002F4550 /* mcf.29.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mcf.29.in; sourceTree = "<group>"; };
+		04F41E6E2418D8A6002F4550 /* mcf.28.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mcf.28.in; sourceTree = "<group>"; };
+		04F41E6F2418D8A7002F4550 /* mcf.14.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mcf.14.in; sourceTree = "<group>"; };
+		04F41E702418D8A7002F4550 /* mcf.33.out */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mcf.33.out; sourceTree = "<group>"; };
+		04F41E712418D8A7002F4550 /* mcf.02.out */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mcf.02.out; sourceTree = "<group>"; };
+		04F41E722418D8A7002F4550 /* mcf.44.out */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mcf.44.out; sourceTree = "<group>"; };
+		04F41E732418D8A7002F4550 /* mcf.35.out */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mcf.35.out; sourceTree = "<group>"; };
+		04F41E742418D8A7002F4550 /* mcf.19.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mcf.19.in; sourceTree = "<group>"; };
+		04F41E752418D8A8002F4550 /* mcf.13.out */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mcf.13.out; sourceTree = "<group>"; };
+		04F41E762418D8A8002F4550 /* mcf.02.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mcf.02.in; sourceTree = "<group>"; };
+		04F41E772418D8A8002F4550 /* mcf.26.out */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mcf.26.out; sourceTree = "<group>"; };
+		04F41E782418D8A8002F4550 /* mcf.06.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mcf.06.in; sourceTree = "<group>"; };
+		04F41E792418D8A9002F4550 /* mcf.06.out */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mcf.06.out; sourceTree = "<group>"; };
+		04F41E7A2418D8A9002F4550 /* mcf.30.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mcf.30.in; sourceTree = "<group>"; };
+		04F41E7B2418D8A9002F4550 /* mcf.15.out */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mcf.15.out; sourceTree = "<group>"; };
+		04F41E7C2418D8A9002F4550 /* mcf.05.out */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mcf.05.out; sourceTree = "<group>"; };
+		04F41E7D2418D8AA002F4550 /* mcf.08.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mcf.08.in; sourceTree = "<group>"; };
+		04F41E7E2418D8AA002F4550 /* mcf.39.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mcf.39.in; sourceTree = "<group>"; };
+		04F41E7F2418D8AA002F4550 /* mcf.45.out */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mcf.45.out; sourceTree = "<group>"; };
+		04F41E802418D8AA002F4550 /* mcf.10.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mcf.10.in; sourceTree = "<group>"; };
+		04F41E812418D8AA002F4550 /* mcf.01.out */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mcf.01.out; sourceTree = "<group>"; };
+		04F41E822418D8AB002F4550 /* mcf.34.out */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mcf.34.out; sourceTree = "<group>"; };
+		04F41E832418D8AB002F4550 /* mcf.18.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mcf.18.in; sourceTree = "<group>"; };
+		04F41E842418D8AB002F4550 /* mcf.48.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mcf.48.in; sourceTree = "<group>"; };
+		04F41E852418D8AC002F4550 /* mcf.24.out */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mcf.24.out; sourceTree = "<group>"; };
+		04F41E862418D8AC002F4550 /* mcf.17.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mcf.17.in; sourceTree = "<group>"; };
+		04F41E872418D8AC002F4550 /* mcf.42.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mcf.42.in; sourceTree = "<group>"; };
+		04F41E882418D8AC002F4550 /* mcf.11.out */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mcf.11.out; sourceTree = "<group>"; };
+		04F41E892418D8AD002F4550 /* mcf.08.out */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mcf.08.out; sourceTree = "<group>"; };
+		04F41E8A2418D8AD002F4550 /* mcf.20.out */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mcf.20.out; sourceTree = "<group>"; };
+		04F41E8B2418D8AD002F4550 /* mcf.29.out */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mcf.29.out; sourceTree = "<group>"; };
+		04F41E8C2418D8AD002F4550 /* mcf.31.out */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mcf.31.out; sourceTree = "<group>"; };
+		04F41E8D2418D8AE002F4550 /* mcf.23.out */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mcf.23.out; sourceTree = "<group>"; };
+		04F41E8E2418D8AE002F4550 /* mcf.38.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mcf.38.in; sourceTree = "<group>"; };
+		04F41E8F2418D8AE002F4550 /* mcf.09.out */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mcf.09.out; sourceTree = "<group>"; };
+		04F41E902418D8AE002F4550 /* mcf.10.out */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mcf.10.out; sourceTree = "<group>"; };
+		04F41E912418D8AF002F4550 /* mcf.05.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mcf.05.in; sourceTree = "<group>"; };
+		04F41E922418D8AF002F4550 /* mcf.41.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mcf.41.in; sourceTree = "<group>"; };
+		04F41E932418D8AF002F4550 /* mcf.20.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mcf.20.in; sourceTree = "<group>"; };
+		04F41E942418D8AF002F4550 /* mcf.03.out */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mcf.03.out; sourceTree = "<group>"; };
+		04F41E952418D8B0002F4550 /* mcf.19.out */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mcf.19.out; sourceTree = "<group>"; };
+		04F41E962418D8B0002F4550 /* mcf.37.out */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mcf.37.out; sourceTree = "<group>"; };
+		04F41E972418D8B0002F4550 /* mcf.09.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mcf.09.in; sourceTree = "<group>"; };
+		04F41E982418D8B1002F4550 /* mcf.25.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mcf.25.in; sourceTree = "<group>"; };
+		04F41E992418D8B1002F4550 /* mcf.38.out */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mcf.38.out; sourceTree = "<group>"; };
+		04F41E9A2418D8B1002F4550 /* mcf.28.out */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mcf.28.out; sourceTree = "<group>"; };
+		04F41E9B2418D8B1002F4550 /* mcf.36.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mcf.36.in; sourceTree = "<group>"; };
+		04F41E9C2418D8B1002F4550 /* mcf.32.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mcf.32.in; sourceTree = "<group>"; };
+		04F41E9D2418D8B2002F4550 /* mcf.40.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mcf.40.in; sourceTree = "<group>"; };
+		04F41E9E2418D8B2002F4550 /* mcf.16.out */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mcf.16.out; sourceTree = "<group>"; };
+		04F41E9F2418D8B3002F4550 /* mcf.17.out */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mcf.17.out; sourceTree = "<group>"; };
+		04F41EA02418D8B3002F4550 /* mcf.25.out */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mcf.25.out; sourceTree = "<group>"; };
+		04F41EA12418D8B3002F4550 /* mcf.26.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mcf.26.in; sourceTree = "<group>"; };
+		04F41EA22418D8B4002F4550 /* mcf.39.out */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mcf.39.out; sourceTree = "<group>"; };
+		04F41EA32418D8B4002F4550 /* mcf.40.out */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mcf.40.out; sourceTree = "<group>"; };
+		04F41EA42418D8B4002F4550 /* mcf.42.out */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mcf.42.out; sourceTree = "<group>"; };
+		04F41EA52418D8B5002F4550 /* mcf.22.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mcf.22.in; sourceTree = "<group>"; };
+		04F41EA62418D8B5002F4550 /* mcf.03.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mcf.03.in; sourceTree = "<group>"; };
+		04F41EA72418D8B5002F4550 /* mcf.04.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mcf.04.in; sourceTree = "<group>"; };
+		04F41EA82418D8B6002F4550 /* mcf.22.out */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mcf.22.out; sourceTree = "<group>"; };
+		04F41EA92418D8B6002F4550 /* mcf.27.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mcf.27.in; sourceTree = "<group>"; };
+		04F41EAA2418D8B6002F4550 /* mcf.32.out */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mcf.32.out; sourceTree = "<group>"; };
+		04F41EAB2418D8B7002F4550 /* mcf.33.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mcf.33.in; sourceTree = "<group>"; };
+		04F41EAC2418D8B7002F4550 /* mcf.36.out */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mcf.36.out; sourceTree = "<group>"; };
+		04F41EAD2418D8B8002F4550 /* mcf.41.out */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mcf.41.out; sourceTree = "<group>"; };
+		04F41EAE2418D8B8002F4550 /* mcf.24.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mcf.24.in; sourceTree = "<group>"; };
+		04F41EAF2418D8B9002F4550 /* mcf.11.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mcf.11.in; sourceTree = "<group>"; };
+		04F41EB02418D8B9002F4550 /* mcf.21.out */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mcf.21.out; sourceTree = "<group>"; };
+		04F41EB12418D8B9002F4550 /* mcf.44.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mcf.44.in; sourceTree = "<group>"; };
+		04F41EB22418D8BA002F4550 /* mcf.18.out */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mcf.18.out; sourceTree = "<group>"; };
+		04F41EB32418D8BA002F4550 /* mcf.45.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mcf.45.in; sourceTree = "<group>"; };
+		04F41EB6241A006C002F4550 /* shortestPathAssignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shortestPathAssignment.swift; sourceTree = "<group>"; };
+		04F41EB8241ADCA2002F4550 /* DPAssignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DPAssignment.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +196,7 @@
 		044AD3DD240873830066E61F /* SwiftXcode */ = {
 			isa = PBXGroup;
 			children = (
+				04F41E542418D88D002F4550 /* test */,
 				04F41E42241111F2002F4550 /* Graph */,
 				04F41E3D24111018002F4550 /* Structure */,
 				044AD3EA24088AFC0066E61F /* Assignments */,
@@ -122,6 +224,8 @@
 				04F41E472411B036002F4550 /* TopologicalSortAssignment.swift */,
 				04F41E492411C0C3002F4550 /* greedyAssignment.swift */,
 				04F41E4D24178D6B002F4550 /* MCFAssignment.swift */,
+				04F41EB6241A006C002F4550 /* shortestPathAssignment.swift */,
+				04F41EB8241ADCA2002F4550 /* DPAssignment.swift */,
 			);
 			path = Assignments;
 			sourceTree = "<group>";
@@ -144,11 +248,114 @@
 		04F41E42241111F2002F4550 /* Graph */ = {
 			isa = PBXGroup;
 			children = (
+				04F41E512418538A002F4550 /* BellmanFord.swift */,
 				04F41E432411121F002F4550 /* BreadthFirstSearch.swift */,
 				04F41E4524111250002F4550 /* DepthFirstSearch.swift */,
 				04F41E4B24178C62002F4550 /* DijkstraArray.swift */,
 			);
 			path = Graph;
+			sourceTree = "<group>";
+		};
+		04F41E542418D88D002F4550 /* test */ = {
+			isa = PBXGroup;
+			children = (
+				04F41E622418D8A4002F4550 /* mcf.01.in */,
+				04F41E812418D8AA002F4550 /* mcf.01.out */,
+				04F41E762418D8A8002F4550 /* mcf.02.in */,
+				04F41E712418D8A7002F4550 /* mcf.02.out */,
+				04F41EA62418D8B5002F4550 /* mcf.03.in */,
+				04F41E942418D8AF002F4550 /* mcf.03.out */,
+				04F41EA72418D8B5002F4550 /* mcf.04.in */,
+				04F41E672418D8A5002F4550 /* mcf.04.out */,
+				04F41E912418D8AF002F4550 /* mcf.05.in */,
+				04F41E7C2418D8A9002F4550 /* mcf.05.out */,
+				04F41E782418D8A8002F4550 /* mcf.06.in */,
+				04F41E792418D8A9002F4550 /* mcf.06.out */,
+				04F41E592418D8A3002F4550 /* mcf.07.in */,
+				04F41E6A2418D8A5002F4550 /* mcf.07.out */,
+				04F41E7D2418D8AA002F4550 /* mcf.08.in */,
+				04F41E892418D8AD002F4550 /* mcf.08.out */,
+				04F41E972418D8B0002F4550 /* mcf.09.in */,
+				04F41E8F2418D8AE002F4550 /* mcf.09.out */,
+				04F41E802418D8AA002F4550 /* mcf.10.in */,
+				04F41E902418D8AE002F4550 /* mcf.10.out */,
+				04F41EAF2418D8B9002F4550 /* mcf.11.in */,
+				04F41E882418D8AC002F4550 /* mcf.11.out */,
+				04F41E5B2418D8A3002F4550 /* mcf.12.in */,
+				04F41E572418D8A2002F4550 /* mcf.12.out */,
+				04F41E5D2418D8A3002F4550 /* mcf.13.in */,
+				04F41E752418D8A8002F4550 /* mcf.13.out */,
+				04F41E6F2418D8A7002F4550 /* mcf.14.in */,
+				04F41E612418D8A4002F4550 /* mcf.14.out */,
+				04F41E562418D8A2002F4550 /* mcf.15.in */,
+				04F41E7B2418D8A9002F4550 /* mcf.15.out */,
+				04F41E662418D8A5002F4550 /* mcf.16.in */,
+				04F41E9E2418D8B2002F4550 /* mcf.16.out */,
+				04F41E862418D8AC002F4550 /* mcf.17.in */,
+				04F41E9F2418D8B3002F4550 /* mcf.17.out */,
+				04F41E832418D8AB002F4550 /* mcf.18.in */,
+				04F41EB22418D8BA002F4550 /* mcf.18.out */,
+				04F41E742418D8A7002F4550 /* mcf.19.in */,
+				04F41E952418D8B0002F4550 /* mcf.19.out */,
+				04F41E932418D8AF002F4550 /* mcf.20.in */,
+				04F41E8A2418D8AD002F4550 /* mcf.20.out */,
+				04F41E682418D8A5002F4550 /* mcf.21.in */,
+				04F41EB02418D8B9002F4550 /* mcf.21.out */,
+				04F41EA52418D8B5002F4550 /* mcf.22.in */,
+				04F41EA82418D8B6002F4550 /* mcf.22.out */,
+				04F41E5A2418D8A3002F4550 /* mcf.23.in */,
+				04F41E8D2418D8AE002F4550 /* mcf.23.out */,
+				04F41EAE2418D8B8002F4550 /* mcf.24.in */,
+				04F41E852418D8AC002F4550 /* mcf.24.out */,
+				04F41E982418D8B1002F4550 /* mcf.25.in */,
+				04F41EA02418D8B3002F4550 /* mcf.25.out */,
+				04F41EA12418D8B3002F4550 /* mcf.26.in */,
+				04F41E772418D8A8002F4550 /* mcf.26.out */,
+				04F41EA92418D8B6002F4550 /* mcf.27.in */,
+				04F41E5F2418D8A3002F4550 /* mcf.27.out */,
+				04F41E6E2418D8A6002F4550 /* mcf.28.in */,
+				04F41E9A2418D8B1002F4550 /* mcf.28.out */,
+				04F41E6D2418D8A6002F4550 /* mcf.29.in */,
+				04F41E8B2418D8AD002F4550 /* mcf.29.out */,
+				04F41E7A2418D8A9002F4550 /* mcf.30.in */,
+				04F41E5C2418D8A3002F4550 /* mcf.30.out */,
+				04F41E6B2418D8A6002F4550 /* mcf.31.in */,
+				04F41E8C2418D8AD002F4550 /* mcf.31.out */,
+				04F41E9C2418D8B1002F4550 /* mcf.32.in */,
+				04F41EAA2418D8B6002F4550 /* mcf.32.out */,
+				04F41EAB2418D8B7002F4550 /* mcf.33.in */,
+				04F41E702418D8A7002F4550 /* mcf.33.out */,
+				04F41E6C2418D8A6002F4550 /* mcf.34.in */,
+				04F41E822418D8AB002F4550 /* mcf.34.out */,
+				04F41E602418D8A4002F4550 /* mcf.35.in */,
+				04F41E732418D8A7002F4550 /* mcf.35.out */,
+				04F41E9B2418D8B1002F4550 /* mcf.36.in */,
+				04F41EAC2418D8B7002F4550 /* mcf.36.out */,
+				04F41E632418D8A4002F4550 /* mcf.37.in */,
+				04F41E962418D8B0002F4550 /* mcf.37.out */,
+				04F41E8E2418D8AE002F4550 /* mcf.38.in */,
+				04F41E992418D8B1002F4550 /* mcf.38.out */,
+				04F41E7E2418D8AA002F4550 /* mcf.39.in */,
+				04F41EA22418D8B4002F4550 /* mcf.39.out */,
+				04F41E9D2418D8B2002F4550 /* mcf.40.in */,
+				04F41EA32418D8B4002F4550 /* mcf.40.out */,
+				04F41E922418D8AF002F4550 /* mcf.41.in */,
+				04F41EAD2418D8B8002F4550 /* mcf.41.out */,
+				04F41E872418D8AC002F4550 /* mcf.42.in */,
+				04F41EA42418D8B4002F4550 /* mcf.42.out */,
+				04F41E642418D8A4002F4550 /* mcf.43.in */,
+				04F41E582418D8A3002F4550 /* mcf.43.out */,
+				04F41EB12418D8B9002F4550 /* mcf.44.in */,
+				04F41E722418D8A7002F4550 /* mcf.44.out */,
+				04F41EB32418D8BA002F4550 /* mcf.45.in */,
+				04F41E7F2418D8AA002F4550 /* mcf.45.out */,
+				04F41E552418D8A2002F4550 /* mcf.46.in */,
+				04F41E692418D8A5002F4550 /* mcf.46.out */,
+				04F41E652418D8A4002F4550 /* mcf.47.in */,
+				04F41E5E2418D8A3002F4550 /* mcf.47.out */,
+				04F41E842418D8AB002F4550 /* mcf.48.in */,
+			);
+			path = test;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,6 +419,7 @@
 				04F41E36240DDA6C002F4550 /* floodFillAssignment.swift in Sources */,
 				04F41E41241110B1002F4550 /* Graph.swift in Sources */,
 				04F41E3A24110F48002F4550 /* BFS.swift in Sources */,
+				04F41EB7241A006C002F4550 /* shortestPathAssignment.swift in Sources */,
 				044AD3DF240873830066E61F /* main.swift in Sources */,
 				044AD3F0240BC1FC0066E61F /* graphAssignment.swift in Sources */,
 				04F41E4E24178D6B002F4550 /* MCFAssignment.swift in Sources */,
@@ -221,8 +429,10 @@
 				04F41E3C24110FCA002F4550 /* DFS.swift in Sources */,
 				044AD3F2240BC9030066E61F /* UF.swift in Sources */,
 				04F41E5024184389002F4550 /* String+DPStringTool.swift in Sources */,
+				04F41EB9241ADCA2002F4550 /* DPAssignment.swift in Sources */,
 				044AD3EE240941C10066E61F /* Stack.swift in Sources */,
 				04F41E38240F06BD002F4550 /* TopologicalSort.swift in Sources */,
+				04F41E522418538A002F4550 /* BellmanFord.swift in Sources */,
 				044AD3E924087D1F0066E61F /* Queue.swift in Sources */,
 				044AD3EC24088C190066E61F /* graphAssignment2.swift in Sources */,
 				04F41E4624111250002F4550 /* DepthFirstSearch.swift in Sources */,

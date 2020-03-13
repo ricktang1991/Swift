@@ -9,4 +9,4 @@
 import Foundation
 
 
-partitionLabels("ababcbacadefegdehijhklij")
+oneTwoThree()
